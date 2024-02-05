@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .hii {
+            margin-left: 215px;
+            margin-top: 20px;
+        }
+
+        .container {
+            background: #2d5bba;
+            color: aliceblue;
+            height: 125px;
+        }
+
+        .a {
+            text-align: justify;
+            margin-left: 100px;
+        }
+
+        .b {
+            width: 680px;
+            height: 780px;
+            float: right;
+        }
+
+        .bu {
+            background-color: green;
+        }
+
+        .bi {
+            color: blue;
+            float: left;
+            margin-left: 150px;
+            margin-top: 30px;
+        }
+
+        .login {
+            display: flex;
+            position: absolute;
+            left: 58%;
+        }
+
+        .login .mail,
+        .login .pass {
+            padding-left: 10px;
+        }
+
+        .hai {
+            height: 24px;
+            width: 50px;
+            background: #12419e;
+            margin-left: 15px;
+        }
+
+        .im {
+            margin-top: 100px;
+            margin-right: 40px;
+        }
+
+        .face {
+            display: flex;
+            margin-left: 10px;
+        }
+
+        .wi {
+            width: 330px;
+        }
+        .i{
+            margin-top: 0px;
+            margin-left: 250px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hii">
+            <h1 class="my">facebook</h1>
+        </div>
+        <form class="login">
+            <div class="mail">
+                <div>Email or phone</div>
+                <input type="text">
+            </div>
+            <div class="pass">
+                <div>password</div>
+                <input type="password"> <br>
+                <label style="color: rgb(7, 7, 137);">forgotten password?</label>
+            </div>
+            <button class="hai">Login</button>
+        </form>
+    </div>
+
+    <br><br>
+    <div class="face">
+        <div>
+            <div>
+                <h3 class="bi">Facebook helps you connect <br> and share with the people in <br> your life</h3>
+            </div>
+            <div class="i"><img class="im" src="C:\Users\bincy\OneDrive\Desktop\Quest\fbk.jpg" alt=""></div>
+        </div>
+        <form action="" class="a">
+            <div class="b">
+                <h1>Create an account</h1><br><br>
+                <h4>It's free and always will be.</h4><br><br>
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name"><br><br>
+                <input type="text" placeholder="Mobile number or email address" class="wi"><br><br>
+                <input type="password" placeholder="New Password" class="wi"> <br><br>
+                <label for="">Birthday</label><br> 
+                <input type="date" id="start" name="trip-start" value="2023-10-13" min="1900-01-01" max="2023-10-13" /> <br><br>
+                <input type="radio" name="def" value="def" id="def">
+                <label for="def">Male</label>
+                <input type="radio" name="def" value="def" id="def">
+                <label for="def">Female</label><br><br>
+                <h6>By clicking create an account you agree to our terms and <br>
+                confirm that you have read our data policy,including our cookie <br>
+                 policy.You may recieve SMS notification <br>
+                 from facebook and can opt out at any time.</h6> <br> <br>
+                <input type="button" value="Create an account" class="bu">           
+            </div>
+        </form>
+    </div>
+</body>
+</html>

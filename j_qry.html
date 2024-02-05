@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="j_queryy.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("p").hide();
+        $("#hi").hide();
+        $(".test").hide();
+        $(this).hide();
+      });
+    });
+
+    $(document).ready(function(){
+      $("#helo").dblclick(function(){
+        $(this).hide();
+      });
+    });
+
+    
+    // $(document).ready(function(){
+    //   $("#me").mouseenter(function(){
+    //     alert("You now click on h4 tag");
+    //    });
+    // });
+   
+
+    // $(document).ready(function(){
+    //   $("#mi").mouseleave(function(){
+    //     alert("Bye! You now leave from h4 tag!");
+    //    });
+    // });
+
+    $("#down").mousedown(function(){
+      alert("Mouse down over h6!");
+    });
+
+    $("#down").mouseup(function(){
+      alert("Mouse up over h6!");
+    });
+   
+  </script>
+</head>
+<body>
+ 
+  <p>This is a paragraph.</p>
+  <p id="hi">Second paragraph</p>
+  <h2 class="test">This is a heading</h2>
+  <button>Click me to hide</button>
+
+  <h3 id="helo">If u double click me,i will disappear</h3>
+
+  <h4 id="me">Helo guys</h4>
+
+  <h5 id="mi">Bye guys</h5>
+
+  <h6 id="down">mouse down from h6</h6>
+</body>
+</html>
