@@ -1,0 +1,10 @@
+from tkinter import *
+w=Tk()
+Label(w,text="First name").grid(row=0,column=0)
+Entry(w).grid(row=0,column=1)
+Label(w,text="Last name").grid(row=1,column=0)
+Entry(w).grid(row=1,column=1)
+Label(w,text="Address").grid(row=2,column=0)
+Entry(w).grid(row=2,column=1)
+Button(w,text="Register").grid(row=3,column=0)
+w.mainloop()
